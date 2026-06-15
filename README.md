@@ -47,7 +47,12 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 **Full walkthrough:**
 
-https://github.com/NarendraM45/Zephyr/raw/main/.github/assets/zephyr-demo.mp4
+<div align="center">
+  <video src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/zephyr-demo.mp4"
+         controls
+         width="100%">
+  </video>
+</div>
 
 <img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
