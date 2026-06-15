@@ -5,12 +5,12 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Flutter-3.19+-6C63FF?style=flat-square&logo=flutter&logoColor=white&labelColor=0A0A14" alt="Flutter" />
-<img src="https://img.shields.io/badge/Dart-3.x-00C9FF?style=flat-square&logo=dart&logoColor=white&labelColor=0A0A14" alt="Dart" />
-<img src="https://img.shields.io/badge/State-Riverpod-92FE9D?style=flat-square&labelColor=0A0A14" alt="Riverpod" />
-<img src="https://img.shields.io/badge/Architecture-Clean-6C63FF?style=flat-square&labelColor=0A0A14" alt="Clean Architecture" />
-<img src="https://img.shields.io/github/v/release/NarendraM45/Zephyr?style=flat-square&color=00C9FF&labelColor=0A0A14&label=release&include_prereleases" alt="Latest release" />
-<img src="https://img.shields.io/badge/License-MIT-92FE9D?style=flat-square&labelColor=0A0A14" alt="License" />
+<img src="https://img.shields.io/badge/Flutter-3.19+-6C63FF?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0A0A14" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-3.x-00C9FF?style=for-the-badge&logo=dart&logoColor=white&labelColor=0A0A14" alt="Dart" />
+<img src="https://img.shields.io/badge/State-Riverpod-92FE9D?style=for-the-badge&labelColor=0A0A14" alt="Riverpod" />
+<img src="https://img.shields.io/badge/Architecture-Clean-6C63FF?style=for-the-badge&labelColor=0A0A14" alt="Clean Architecture" />
+<img src="https://img.shields.io/github/v/release/NarendraM45/Zephyr?style=for-the-badge&color=00C9FF&labelColor=0A0A14&label=release&include_prereleases" alt="Latest release" />
+<img src="https://img.shields.io/badge/License-MIT-92FE9D?style=for-the-badge&labelColor=0A0A14" alt="License" />
 
 </div>
 
@@ -45,7 +45,11 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 ## Preview
 
-**Full walkthrough:** [**▶ watch the demo video**](.github/assets/zephyr-demo.mp4)
+**Full walkthrough:**
+
+<video src="https://github.com/NarendraM45/Zephyr/raw/main/.github/assets/zephyr-demo.mp4" controls="controls" muted="muted" style="max-width: 100%; border-radius: 12px;"></video>
+
+[**▶ If the video doesn't load, click here to download it directly.**](https://github.com/NarendraM45/Zephyr/raw/main/.github/assets/zephyr-demo.mp4)
 
 <img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
