@@ -22,7 +22,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 <div align="center">
 
-[**⬇ Download the APK**](https://github.com/NarendraM45/Zephyr/releases/download/v1.0.0/Zephyr_1.1.0.apk) &nbsp;&nbsp;•&nbsp;&nbsp; [**▶ Watch the demo**](.github/assets/zephyr-demo.mp4) &nbsp;&nbsp;•&nbsp;&nbsp; [Get started](#getting-started)
+[**⬇ Download the APK**](https://github.com/NarendraM45/Zephyr/releases/download/v1.0.0/Zephyr_1.1.0.apk) &nbsp;&nbsp;•&nbsp;&nbsp; [**▶ Watch the demo**](https://github.com/user-attachments/assets/03081859-f819-4f3b-adc3-758b8286a923) &nbsp;&nbsp;•&nbsp;&nbsp; [Get started](#getting-started)
 
 </div>
 
@@ -47,12 +47,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 **Full walkthrough:**
 
-<div align="center">
-  <video src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/zephyr-demo.mp4"
-         controls
-         width="100%">
-  </video>
-</div>
+https://github.com/user-attachments/assets/03081859-f819-4f3b-adc3-758b8286a923
 
 <img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
