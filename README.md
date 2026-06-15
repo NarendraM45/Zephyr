@@ -45,9 +45,13 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 ## Preview
 
+<div align="center">
+
 **Full walkthrough:**
 
 https://github.com/user-attachments/assets/03081859-f819-4f3b-adc3-758b8286a923
+
+</div>
 
 <img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
