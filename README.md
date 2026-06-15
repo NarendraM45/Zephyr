@@ -1,7 +1,7 @@
 <a id="top"></a>
 <div align="center">
 
-<img src=".github/assets/header-banner.svg" alt="Zephyr — where the sky tells its story" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/header-banner.svg" alt="Zephyr — where the sky tells its story" width="100%" />
 
 <br/>
 
@@ -26,7 +26,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 </div>
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 ## Contents
 
@@ -47,11 +47,11 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 **Full walkthrough:** [**▶ watch the demo video**](.github/assets/zephyr-demo.mp4)
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 ## Features
 
-<img src=".github/assets/instrument-panel.svg" alt="Wind compass, UV index, air quality, moon phase, and live radar instruments" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/instrument-panel.svg" alt="Wind compass, UV index, air quality, moon phase, and live radar instruments" width="100%" />
 
 **Living conditions** — current temperature and "feels like," set against a background that actually reacts: time-of-day gradients, condition-aware Lottie skies for clear, overcast, fog, drizzle, heavy rain, thunderstorm, snow, and blizzard, plus a particle system that rains, snows, or scatters stars to match.
 
@@ -69,11 +69,11 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 **A proper first run** — a short, video-led onboarding sequence handles the location-permission ask instead of dropping a system dialog on a blank screen.
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 ## Tech stack
 
-<img src=".github/assets/tech-stack-marquee.svg" alt="Flutter, Dart, Riverpod, GoRouter, Hive, Dio, Freezed, Lottie, fl_chart, flutter_map, get_it, Geolocator" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/tech-stack-marquee.svg" alt="Flutter, Dart, Riverpod, GoRouter, Hive, Dio, Freezed, Lottie, fl_chart, flutter_map, get_it, Geolocator" width="100%" />
 
 | Layer | Choices |
 | :--- | :--- |
@@ -92,7 +92,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 ## Architecture
 
-<img src=".github/assets/architecture-diagram.svg" alt="Clean architecture: presentation, domain, and data layers" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/architecture-diagram.svg" alt="Clean architecture: presentation, domain, and data layers" width="100%" />
 
 Zephyr follows the dependency rule strictly: **domain has no Flutter or networking imports.** Presentation reaches the domain layer only through use cases; data depends on domain by implementing its repository contracts. Either outer layer can be swapped — a different backend, a different UI on top of the same domain — without touching the rules in the middle.
 
@@ -107,11 +107,11 @@ lib/
     └── providers/  Riverpod providers wiring it all together
 ```
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 ## Platforms
 
-<img src=".github/assets/platform-strip.svg" alt="Android, iOS, Windows, macOS, Linux, and Web" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/platform-strip.svg" alt="Android, iOS, Windows, macOS, Linux, and Web" width="100%" />
 
 One codebase, six targets. Mobile carries the full experience — location services, onboarding, notifications — while desktop and web builds share the same providers and widget tree.
 
@@ -145,7 +145,7 @@ flutter run
 
 Build a release for a specific target with `flutter build <apk|ios|windows|macos|linux|web>`.
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 ## Download
 
@@ -225,11 +225,11 @@ git push origin feature/your-feature
 
 This project is distributed under the MIT License — see [`LICENSE`](LICENSE) for details. (No `LICENSE` file yet? GitHub can generate one from the *Add file* menu in the repo root.)
 
-<img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/aurora-divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-<img src=".github/assets/footer-banner.svg" alt="Made with Flutter — crafted for clear skies" width="100%" />
+<img src="https://raw.githubusercontent.com/NarendraM45/Zephyr/main/.github/assets/footer-banner.svg" alt="Made with Flutter — crafted for clear skies" width="100%" />
 
 <sub><a href="#top">↑ back to top</a></sub>
 

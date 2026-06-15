@@ -1,0 +1,209 @@
+<svg viewBox="0 0 1200 112" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zephyr tech stack">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+    .display { font-family: 'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    ]]></style>
+    <linearGradient id="tm_bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1B2E"/>
+      <stop offset="100%" stop-color="#0A0A14"/>
+    </linearGradient>
+    <linearGradient id="tm_aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="50%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#92FE9D"/>
+    </linearGradient>
+    <linearGradient id="tm_fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="6%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="94%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="tm_mask"><rect width="1200" height="112" fill="url(#tm_fade)"/></mask>
+    <clipPath id="tm_frame"><rect width="1200" height="112" rx="20"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="112" rx="20" fill="url(#tm_bg)"/>
+  <g clip-path="url(#tm_frame)">
+    <rect width="1200" height="1.4" fill="url(#tm_aurora)" opacity="0.35"/>
+    <rect y="110.6" width="1200" height="1.4" fill="url(#tm_aurora)" opacity="0.35"/>
+    <g mask="url(#tm_mask)">
+      <g>
+        
+      <g transform="translate(0,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M-8,-8 L8,-8 L-8,8 Z" fill="#00C9FF"/><path d="M8,-8 L8,8 L-8,8 Z" fill="#6C63FF" opacity="0.85"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter</text>
+      </g>
+
+      <g transform="translate(220,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><rect x="-6.3" y="-6.3" width="12.6" height="12.6" fill="#00C9FF" transform="rotate(45)"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">dart</text>
+      </g>
+
+      <g transform="translate(440,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 C5,-2 8,3 8,6 A8,8 0 0 1 -8,6 C-8,3 -5,-2 0,-9 Z" fill="#92FE9D"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter_riverpod</text>
+      </g>
+
+      <g transform="translate(660,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><circle r="9" fill="none" stroke="#6C63FF" stroke-width="1.6"/><path d="M-3,2 L3,-4 M0,-4 L3,-4 L3,-1" stroke="#6C63FF" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">go_router</text>
+      </g>
+
+      <g transform="translate(880,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 L7.8,-4.5 L7.8,4.5 L0,9 L-7.8,4.5 L-7.8,-4.5 Z" fill="#92FE9D" opacity="0.18" stroke="#92FE9D" stroke-width="1.4"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">hive_flutter</text>
+      </g>
+
+      <g transform="translate(1100,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M2,-9 L-5,1 L0,1 L-2,9 L6,-1 L1,-1 Z" fill="#00C9FF"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">dio</text>
+      </g>
+
+      <g transform="translate(1320,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#00C9FF" stroke-width="1.7" stroke-linecap="round"><line x1="0" y1="-9" x2="0" y2="9"/><line x1="-7.8" y1="-4.5" x2="7.8" y2="4.5"/><line x1="-7.8" y1="4.5" x2="7.8" y2="-4.5"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">freezed</text>
+      </g>
+
+      <g transform="translate(1540,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><circle r="9" fill="none" stroke="#6C63FF" stroke-width="1.6"/><path d="M-3,-4.5 L5.5,0 L-3,4.5 Z" fill="#6C63FF"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">lottie</text>
+      </g>
+
+      <g transform="translate(1760,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g fill="#92FE9D"><rect x="-8" y="-2" width="4" height="9"/><rect x="-2" y="-6" width="4" height="13"/><rect x="4" y="-9" width="4" height="16"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">fl_chart</text>
+      </g>
+
+      <g transform="translate(1980,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 C5,-9 8,-5.5 8,-1.5 C8,3.5 0,9 0,9 C0,9 -8,3.5 -8,-1.5 C-8,-5.5 -5,-9 0,-9 Z" fill="#6C63FF"/><circle cx="0" cy="-1.5" r="3" fill="#0A0A14"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter_map</text>
+      </g>
+
+      <g transform="translate(2200,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#00C9FF" stroke-width="1.6" fill="none" stroke-linecap="round"><path d="M-4,-9 L-4,-3 M4,-9 L4,-3"/><rect x="-6" y="-3" width="12" height="6" rx="2"/><line x1="0" y1="3" x2="0" y2="9"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">get_it · injectable</text>
+      </g>
+
+      <g transform="translate(2420,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#92FE9D" stroke-width="1.6"><circle r="9" fill="none"/><circle r="2.4" fill="#92FE9D" stroke="none"/><line x1="0" y1="-9" x2="0" y2="-6"/><line x1="0" y1="9" x2="0" y2="6"/><line x1="-9" y1="0" x2="-6" y2="0"/><line x1="9" y1="0" x2="6" y2="0"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">geolocator</text>
+      </g>
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="-2640,0" dur="38s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(2640,0)">
+        
+      <g transform="translate(0,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M-8,-8 L8,-8 L-8,8 Z" fill="#00C9FF"/><path d="M8,-8 L8,8 L-8,8 Z" fill="#6C63FF" opacity="0.85"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter</text>
+      </g>
+
+      <g transform="translate(220,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><rect x="-6.3" y="-6.3" width="12.6" height="12.6" fill="#00C9FF" transform="rotate(45)"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">dart</text>
+      </g>
+
+      <g transform="translate(440,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 C5,-2 8,3 8,6 A8,8 0 0 1 -8,6 C-8,3 -5,-2 0,-9 Z" fill="#92FE9D"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter_riverpod</text>
+      </g>
+
+      <g transform="translate(660,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><circle r="9" fill="none" stroke="#6C63FF" stroke-width="1.6"/><path d="M-3,2 L3,-4 M0,-4 L3,-4 L3,-1" stroke="#6C63FF" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">go_router</text>
+      </g>
+
+      <g transform="translate(880,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 L7.8,-4.5 L7.8,4.5 L0,9 L-7.8,4.5 L-7.8,-4.5 Z" fill="#92FE9D" opacity="0.18" stroke="#92FE9D" stroke-width="1.4"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">hive_flutter</text>
+      </g>
+
+      <g transform="translate(1100,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M2,-9 L-5,1 L0,1 L-2,9 L6,-1 L1,-1 Z" fill="#00C9FF"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">dio</text>
+      </g>
+
+      <g transform="translate(1320,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#00C9FF" stroke-width="1.7" stroke-linecap="round"><line x1="0" y1="-9" x2="0" y2="9"/><line x1="-7.8" y1="-4.5" x2="7.8" y2="4.5"/><line x1="-7.8" y1="4.5" x2="7.8" y2="-4.5"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">freezed</text>
+      </g>
+
+      <g transform="translate(1540,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><circle r="9" fill="none" stroke="#6C63FF" stroke-width="1.6"/><path d="M-3,-4.5 L5.5,0 L-3,4.5 Z" fill="#6C63FF"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">lottie</text>
+      </g>
+
+      <g transform="translate(1760,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g fill="#92FE9D"><rect x="-8" y="-2" width="4" height="9"/><rect x="-2" y="-6" width="4" height="13"/><rect x="4" y="-9" width="4" height="16"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">fl_chart</text>
+      </g>
+
+      <g transform="translate(1980,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><path d="M0,-9 C5,-9 8,-5.5 8,-1.5 C8,3.5 0,9 0,9 C0,9 -8,3.5 -8,-1.5 C-8,-5.5 -5,-9 0,-9 Z" fill="#6C63FF"/><circle cx="0" cy="-1.5" r="3" fill="#0A0A14"/></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">flutter_map</text>
+      </g>
+
+      <g transform="translate(2200,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#00C9FF" stroke-width="1.6" fill="none" stroke-linecap="round"><path d="M-4,-9 L-4,-3 M4,-9 L4,-3"/><rect x="-6" y="-3" width="12" height="6" rx="2"/><line x1="0" y1="3" x2="0" y2="9"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">get_it · injectable</text>
+      </g>
+
+      <g transform="translate(2420,31)">
+        <rect width="204" height="50" rx="25" fill="#FFFFFF" opacity="0.035"/>
+        <rect width="204" height="50" rx="25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+        <g transform="translate(30,25.0)"><g stroke="#92FE9D" stroke-width="1.6"><circle r="9" fill="none"/><circle r="2.4" fill="#92FE9D" stroke="none"/><line x1="0" y1="-9" x2="0" y2="-6"/><line x1="0" y1="9" x2="0" y2="6"/><line x1="-9" y1="0" x2="-6" y2="0"/><line x1="9" y1="0" x2="6" y2="0"/></g></g>
+        <text x="54" y="29.5" class="mono" font-size="13" letter-spacing="0.5" fill="#FFFFFF" opacity="0.78">geolocator</text>
+      </g>
+        <animateTransform attributeName="transform" type="translate" from="2640,0" to="0,0" dur="38s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="110.5" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+</svg>

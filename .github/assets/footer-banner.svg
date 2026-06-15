@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Made with Flutter -- crafted for clear skies">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+    .display { font-family: 'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    ]]></style>
+    <linearGradient id="ft_sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#211C40"/>
+      <stop offset="38%" stop-color="#4B3D72"/>
+      <stop offset="72%" stop-color="#E0735A"/>
+      <stop offset="100%" stop-color="#FFC089"/>
+    </linearGradient>
+    <linearGradient id="ft_aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="50%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#92FE9D"/>
+    </linearGradient>
+    <linearGradient id="ft_title" x1="480" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#92FE9D"/>
+      <stop offset="50%" stop-color="#00C9FF"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-100 0; 100 0; -100 0" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="ft_sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF3D6"/>
+      <stop offset="55%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0.25"/>
+    </radialGradient>
+    <clipPath id="ft_frame"><rect width="1200" height="260" rx="28"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="260" rx="28" fill="url(#ft_sky)"/>
+  <g clip-path="url(#ft_frame)">
+    <circle cx="70" cy="40" r="1.4" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.0s" repeatCount="indefinite"/></circle><circle cx="140" cy="70" r="1.0" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.0s" repeatCount="indefinite"/></circle><circle cx="230" cy="35" r="1.6" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="5.4s" repeatCount="indefinite"/></circle><circle cx="310" cy="80" r="1.0" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.8s" repeatCount="indefinite"/></circle><circle cx="960" cy="45" r="1.5" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.4s" repeatCount="indefinite"/></circle><circle cx="1040" cy="75" r="1.0" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="4.6s" repeatCount="indefinite"/></circle><circle cx="1120" cy="38" r="1.7" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.0s" repeatCount="indefinite"/></circle><circle cx="880" cy="90" r="1.0" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="5.0s" repeatCount="indefinite"/></circle>
+    
+    <g stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <g><path d="M0,0 q6,-7 12,0 q6,-7 12,0"/><animateTransform attributeName="transform" type="translate" values="120,60; 180,46; 120,60" dur="22s" repeatCount="indefinite"/></g>
+      <g><path d="M0,0 q5,-6 10,0 q5,-6 10,0"/><animateTransform attributeName="transform" type="translate" values="980,50; 920,64; 980,50" dur="26s" repeatCount="indefinite"/></g>
+    </g>
+
+    <g transform="translate(600,254)">
+      <circle r="62" fill="url(#ft_sun)">
+        <animate attributeName="opacity" values="0.75;1;0.75" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <animateTransform attributeName="transform" type="translate" values="600,254; 600,246; 600,254" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    
+    <g transform="translate(420,176)" opacity="0.6">
+      <circle r="11" fill="none" stroke="#FF8C42" stroke-width="1.6"/>
+      <g stroke="#FF8C42" stroke-width="1.6" stroke-linecap="round">
+        <line x1="0" y1="-17" x2="0" y2="-14"/><line x1="0" y1="17" x2="0" y2="14"/>
+        <line x1="-17" y1="0" x2="-14" y2="0"/><line x1="17" y1="0" x2="14" y2="0"/>
+        <line x1="-12" y1="-12" x2="-10" y2="-10"/><line x1="12" y1="12" x2="10" y2="10"/>
+        <line x1="-12" y1="12" x2="-10" y2="10"/><line x1="12" y1="-12" x2="10" y2="-10"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="420,176; 420,168; 420,176" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(490,180)" opacity="0.55">
+      <ellipse rx="20" ry="11" fill="#1A1B2E" stroke="#FFFFFF" stroke-opacity="0.3"/>
+      <ellipse cx="-9" cy="-4" rx="11" ry="9" fill="#1A1B2E" stroke="#FFFFFF" stroke-opacity="0.3"/>
+      <ellipse cx="9" cy="-5" rx="12" ry="10" fill="#1A1B2E" stroke="#FFFFFF" stroke-opacity="0.3"/>
+      <animateTransform attributeName="transform" type="translate" values="490,180; 490,172; 490,180" dur="6.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(700,178)" opacity="0.6" stroke="#00C9FF" stroke-width="1.6" stroke-linecap="round">
+      <line x1="-3" y1="-10" x2="-6" y2="0"/><line x1="3" y1="-10" x2="0" y2="0"/><line x1="9" y1="-10" x2="6" y2="0"/>
+      <animateTransform attributeName="transform" type="translate" values="700,178; 700,186; 700,178" dur="4.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(770,176)" opacity="0.6" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round">
+      <line x1="0" y1="-9" x2="0" y2="9"/><line x1="-7.8" y1="-4.5" x2="7.8" y2="4.5"/><line x1="-7.8" y1="4.5" x2="7.8" y2="-4.5"/>
+      <animateTransform attributeName="transform" type="translate" values="770,176; 770,168; 770,176" dur="5.5s" repeatCount="indefinite"/>
+    </g>
+
+    <text x="600" y="98" text-anchor="middle" class="display" font-size="44" font-weight="700" fill="url(#ft_title)" letter-spacing="3">ZEPHYR</text>
+    <text x="600" y="130" text-anchor="middle" class="mono" font-size="14" fill="#FFFFFF" opacity="0.7" letter-spacing="3">MADE WITH FLUTTER · CRAFTED FOR CLEAR SKIES</text>
+
+    <rect x="0" y="222" width="1200" height="1.4" fill="url(#ft_aurora)" opacity="0.45"/>
+    <circle cx="-30" cy="222" r="4" fill="#92FE9D">
+      <animateMotion path="M -30,222 L 1230,222" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.88;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="40" y="246" class="mono" font-size="12" fill="#FFFFFF" opacity="0.32">// end of forecast</text>
+    <text x="1160" y="246" text-anchor="end" class="mono" font-size="12" fill="#FFFFFF" opacity="0.4" letter-spacing="1">BACK TO TOP ↑</text>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="258.5" rx="27.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.07"/>
+</svg>

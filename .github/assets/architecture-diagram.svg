@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zephyr clean architecture diagram">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+    .display { font-family: 'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+    ]]></style>
+    <linearGradient id="ar_bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1B2E"/>
+      <stop offset="100%" stop-color="#0A0A14"/>
+    </linearGradient>
+    <clipPath id="ar_frame"><rect width="1200" height="520" rx="24"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="520" rx="24" fill="url(#ar_bg)"/>
+  <g clip-path="url(#ar_frame)">
+    <text x="40" y="40" class="mono" font-size="13" fill="#FFFFFF" opacity="0.4" letter-spacing="2">lib/</text>
+    <text x="40" y="68" class="display" font-size="28" font-weight="700" fill="#FFFFFF">Clean Architecture</text>
+
+    <g class="mono" font-size="11" fill="#FFFFFF" opacity="0.55">
+      <rect x="700" y="32" width="9" height="9" rx="2" fill="#6C63FF"/>
+      <text x="715" y="40">presentation</text>
+      <rect x="855" y="32" width="9" height="9" rx="2" fill="#00C9FF"/>
+      <text x="870" y="40">domain</text>
+      <rect x="985" y="32" width="9" height="9" rx="2" fill="#92FE9D"/>
+      <text x="1000" y="40">data</text>
+    </g>
+
+    
+    <g transform="translate(40,86)">
+      <clipPath id="arch_clip0"><rect width="346" height="394" rx="16"/></clipPath>
+      <rect width="346" height="394" rx="16" fill="#FFFFFF" opacity="0.025"/>
+      <rect width="346" height="394" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <g clip-path="url(#arch_clip0)">
+        <rect width="346" height="46" fill="#6C63FF" opacity="0.14"/>
+        <rect x="20" y="18.0" width="10" height="10" rx="3" fill="#6C63FF"/>
+        <text x="40" y="28.0" class="display" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="1">PRESENTATION</text>
+        
+        <g transform="translate(14,74)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#6C63FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#6C63FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Screens &amp; Widgets</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">home · forecast · map · search · settings</text>
+        </g>
+        <g transform="translate(14,176)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#6C63FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#6C63FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Riverpod Providers</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">weather · forecast · location · theme</text>
+        </g>
+        <g transform="translate(14,278)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#6C63FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#6C63FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">GoRouter Shell</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">bottom nav + drawer navigation</text>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(426,86)">
+      <clipPath id="arch_clip1"><rect width="346" height="394" rx="16"/></clipPath>
+      <rect width="346" height="394" rx="16" fill="#FFFFFF" opacity="0.025"/>
+      <rect width="346" height="394" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <g clip-path="url(#arch_clip1)">
+        <rect width="346" height="46" fill="#00C9FF" opacity="0.14"/>
+        <rect x="20" y="18.0" width="10" height="10" rx="3" fill="#00C9FF"/>
+        <text x="40" y="28.0" class="display" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="1">DOMAIN</text>
+        
+        <g transform="translate(14,74)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#00C9FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#00C9FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Entities</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">Weather · ForecastDay · AirQuality</text>
+        </g>
+        <g transform="translate(14,176)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#00C9FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#00C9FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Use Cases</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">GetCurrentWeather · GetForecast · …</text>
+        </g>
+        <g transform="translate(14,278)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#00C9FF" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#00C9FF" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Repository Contract</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">IWeatherRepository (abstract)</text>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(812,86)">
+      <clipPath id="arch_clip2"><rect width="346" height="394" rx="16"/></clipPath>
+      <rect width="346" height="394" rx="16" fill="#FFFFFF" opacity="0.025"/>
+      <rect width="346" height="394" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <g clip-path="url(#arch_clip2)">
+        <rect width="346" height="46" fill="#92FE9D" opacity="0.14"/>
+        <rect x="20" y="18.0" width="10" height="10" rx="3" fill="#92FE9D"/>
+        <text x="40" y="28.0" class="display" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="1">DATA</text>
+        
+        <g transform="translate(14,74)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#92FE9D" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#92FE9D" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Repository Impl</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">WeatherRepositoryImpl</text>
+        </g>
+        <g transform="translate(14,176)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#92FE9D" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#92FE9D" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Remote Source</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">Dio → WeatherAPI.com</text>
+        </g>
+        <g transform="translate(14,278)">
+          <rect width="318" height="88" rx="12" fill="#FFFFFF" opacity="0.03"/>
+          <rect width="318" height="88" rx="12" fill="none" stroke="#92FE9D" stroke-opacity="0.22"/>
+          <rect width="3" height="88" rx="1.5" fill="#92FE9D" opacity="0.7"/>
+          <text x="16" y="32" class="display" font-size="15" font-weight="600" fill="#FFFFFF">Local Source</text>
+          <text x="16" y="54" class="mono" font-size="11" fill="#FFFFFF" opacity="0.5">Hive cache · TTL</text>
+        </g>
+      </g>
+    </g>
+    
+    <line x1="386" y1="306.0" x2="426" y2="306.0" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M 417,301.0 L 426,306.0 L 417,311.0" fill="none" stroke="#6C63FF" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="406.0" y="294.0" text-anchor="middle" class="mono" font-size="10.5" fill="#6C63FF" opacity="0.55" letter-spacing="1">uses</text>
+    <circle cx="390" cy="306.0" r="4" fill="#6C63FF">
+      <animateMotion path="M 390,306.0 L 422,306.0" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <line x1="812" y1="306.0" x2="772" y2="306.0" stroke="#92FE9D" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M 781,301.0 L 772,306.0 L 781,311.0" fill="none" stroke="#92FE9D" stroke-opacity="0.5" stroke-width="1.5"/>
+    <text x="792.0" y="294.0" text-anchor="middle" class="mono" font-size="10.5" fill="#92FE9D" opacity="0.55" letter-spacing="1">implements</text>
+    <circle cx="808" cy="306.0" r="4" fill="#92FE9D">
+      <animateMotion path="M 808,306.0 L 776,306.0" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="518.5" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+</svg>
