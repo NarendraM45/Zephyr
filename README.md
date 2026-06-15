@@ -22,7 +22,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 <div align="center">
 
-[**⬇ Download the APK**](https://github.com/NarendraM45/Zephyr/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [**▶ Watch the demo**](.github/assets/zephyr-demo.mp4) &nbsp;&nbsp;•&nbsp;&nbsp; [Get started](#getting-started)
+[**⬇ Download the APK**](https://github.com/NarendraM45/Zephyr/releases/download/v1.0.0/Zephyr_1.1.0.apk) &nbsp;&nbsp;•&nbsp;&nbsp; [**▶ Watch the demo**](.github/assets/zephyr-demo.mp4) &nbsp;&nbsp;•&nbsp;&nbsp; [Get started](#getting-started)
 
 </div>
 
@@ -45,26 +45,7 @@ It's built on a strict Clean Architecture split (presentation / domain / data), 
 
 ## Preview
 
-<!--
-  Replace this block with real captures. A 3-up row of screenshots works well:
-
-  <p align="center">
-    <img src="docs/screens/home.png" width="240" />
-    <img src="docs/screens/forecast.png" width="240" />
-    <img src="docs/screens/radar.png" width="240" />
-  </p>
-
-  For something livelier, export a short capture as a GIF and drop it in —
-  GIFs autoplay inline on GitHub, video files do not.
--->
-
-<p align="center">
-  <i>Screenshots and a short capture go here — drop them into <code>docs/screens/</code> and swap in the block above.</i>
-</p>
-
-**Full walkthrough:** [**▶ watch the demo video**](https://your-video-link-here)
-
-> Tip — to embed a video that plays inline on GitHub, drag the `.mp4` file directly into this README while editing it on github.com. GitHub will upload it and insert a working `https://github.com/user-attachments/...` link automatically.
+**Full walkthrough:** [**▶ watch the demo video**](.github/assets/zephyr-demo.mp4)
 
 <img src=".github/assets/aurora-divider.svg" alt="" width="100%" />
 
@@ -170,7 +151,7 @@ Build a release for a specific target with `flutter build <apk|ios|windows|macos
 
 <div align="center">
 
-### [⬇ Get the latest APK](https://github.com/NarendraM45/Zephyr/releases/latest)
+### [⬇ Get the latest APK](https://github.com/NarendraM45/Zephyr/releases/download/v1.0.0/Zephyr_1.1.0.apk)
 
 <sub>Builds for other platforms are attached to each <a href="https://github.com/NarendraM45/Zephyr/releases">release</a>.</sub>
 
